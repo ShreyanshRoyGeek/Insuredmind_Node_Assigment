@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require("express")
 const mongoose = require("mongoose")
 const bodyParser = require("body-parser")
@@ -12,7 +13,7 @@ app.use(cors())
 
 
 /* MongoDB Atlas Connection  */
-mongoose.connect("mongodb+srv://shreyanshkumarroy:insuredmind@cluster0.kkmefjo.mongodb.net/", {
+mongoose.connect(process.env.MONGO_DB_ATLAS_CONNECTION_STRING, {
     useNewUrlParser : true,
     useUnifiedTopology : true 
 })
