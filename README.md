@@ -3,7 +3,7 @@
 
 
 # Pre-requisites
-- Install [Node.js](https://nodejs.org/en/) version LTS
+- Install [Node.js](https://nodejs.org/en/) version Any LTS
 
 
 # Getting started
@@ -22,16 +22,15 @@ npm start
 ```
   Navigate to `http://localhost:8080`
 
-- API Document endpoints
+- API  URL Details
 
-  URL Type : POST : http://localhost:8080/importData
+  Type : POST : http://localhost:8080/importData
 
-  URL Type : POST : http://localhost:8080/search/searchPolicyInfoByUserName
+  Type : POST : http://localhost:8080/search/searchPolicyInfoByUserName
 
-  URL Type : POST : http://localhost:8080/search/aggregatedPolicyByEachUser
+  Type : POST : http://localhost:8080/search/aggregatedPolicyByEachUser
 
-  URL Type : POST : http://localhost:8080/schedule/scheduleByDateAndTime
-
+  Type : POST : http://localhost:8080/schedule/scheduleByDateAndTime
 
 
 
